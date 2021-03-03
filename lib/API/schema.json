@@ -195,6 +195,12 @@
     "docDefault": "True",
     "docDescription": "Restart delay on file change detected"
   },
+  "no_autorestart_on_clean_exit": {
+    "type": "boolean",
+    "default" : false,
+    "docDefault": "False",
+    "docDescription": "Disable auto restart when process exits with exit code 0"
+  },
   "watch": {
     "type": [
       "boolean",
